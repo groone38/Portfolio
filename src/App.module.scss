@@ -1,0 +1,40 @@
+.block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 10%;
+    z-index: -1;
+    background-color: #F6F6F6;
+    background-image: url('./images/photo.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .block {
+        width: 90%;
+        height: 7%;
+    }
+    .wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .block {
+        display: none;
+    }
+
+    .wrapper {
+        max-width: 800px;
+    }
+}

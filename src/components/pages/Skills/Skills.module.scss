@@ -1,0 +1,29 @@
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 40px;
+    margin-bottom: 100px;
+    img {
+        width: auto;
+        height: 50px;
+    }
+    svg {
+        width: auto;
+        height: 50px;
+    }
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        color: #7E7C7C;
+    }
+}
+
+@media screen and (max-width: 800px) { 
+    .skills {
+        grid-template-columns: repeat(2, 1fr);        
+    }
+}
