@@ -9,5 +9,3 @@
     <img src="https://img.shields.io/badge/telegram-red?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/>
   </a> 
 </div>
-
-https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=black
