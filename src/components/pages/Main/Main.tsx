@@ -32,7 +32,7 @@ const Main = () => {
           <FontAwesomeIcon icon={faTelegram} />
         </a>
       </div>
-      <a href="./" download={"CV.pdf"} className={classes.main__btn}>DOWNLOAD CV</a>
+      <a href={require('./CV.pdf')} type="application/octet-stream" download className={classes.main__btn}>DOWNLOAD CV</a>
     </main>
   );
 };
