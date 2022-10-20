@@ -32,7 +32,7 @@ const Main = () => {
           <FontAwesomeIcon icon={faTelegram} />
         </a>
       </div>
-      <a href="../../../.././file/CV.pdf" download className={classes.main__btn}>DOWNLOAD CV</a>
+      <a href="./" download={"CV.pdf"} className={classes.main__btn}>DOWNLOAD CV</a>
     </main>
   );
 };
